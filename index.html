@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Browletto — waffles, brownies, shakes, coffee and snacks. A little happiness in every bite.">
+  <title>Browletto | Sweet Cravings, Good Moods</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="announcement">A little happiness is on the menu today <span>✦</span> Made fresh, served with love</div>
+  <header class="site-header">
+    <a class="brand" href="#home" aria-label="Browletto home"><span class="brand-mark">b.</span><span>Browletto<small>GOOD MOODS, FRESHLY MADE</small></span></a>
+    <button class="menu-toggle" aria-label="Open navigation" aria-expanded="false">☰</button>
+    <nav class="nav">
+      <a href="#menu">Our menu</a><a href="#story">Our story</a><a href="#visit">Find us</a>
+      <a class="nav-cta" href="#menu">Explore treats <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="home">
+      <div class="hero-copy">
+        <p class="eyebrow"><span></span> YOUR HAPPY PLACE FOR TREATS</p>
+        <h1>Sweet cravings.<br><em>Good moods.</em></h1>
+        <p class="hero-text">Waffles, brownies, shakes and little pick-me-ups that make an ordinary day feel special.</p>
+        <div class="hero-actions"><a class="button button-dark" href="#menu">Explore the menu <span>→</span></a><a class="text-link" href="#story">Get to know us <span>↗</span></a></div>
+        <div class="hero-note"><span class="stars">★★★★★</span><span>Made for your little moments of joy</span></div>
+      </div>
+      <div class="hero-art">
+        <div class="hero-blob"></div>
+        <div class="hero-photo" role="img" aria-label="Chocolate brownie and dessert spread"></div>
+        <div class="floating-note note-top"><span>♡</span> made with love</div>
+        <div class="floating-note note-bottom"><span>✦</span> Treat yourself today</div>
+        <div class="hero-stamp">A LITTLE<br>JOY IN<br>EVERY BITE</div>
+      </div>
+      <div class="hero-bottom"><span>01 — A SWEETER KIND OF EVERYDAY</span><span>SCROLL TO EXPLORE ↓</span></div>
+    </section>
+
+    <section class="category-strip" aria-label="Categories">
+      <span>WAFFLES</span><i>✳</i><span>BROWNIES</span><i>✳</i><span>SHAKES</span><i>✳</i><span>COFFEE</span><i>✳</i><span>SNACKS</span>
+    </section>
+
+    <section class="menu-section section-pad" id="menu">
+      <div class="section-heading">
+        <div><p class="eyebrow">THE GOOD STUFF</p><h2>Pick your <em>happy.</em></h2></div>
+        <p>Something chocolatey, something chilled,<br>something made just for you.</p>
+      </div>
+      <div class="filters" role="group" aria-label="Filter menu">
+        <button class="filter active" data-filter="all">All treats</button><button class="filter" data-filter="waffles">Waffles</button><button class="filter" data-filter="brownies">Brownies</button><button class="filter" data-filter="shakes">Shakes</button><button class="filter" data-filter="coffee">Coffee</button>
+      </div>
+      <div class="product-grid">
+        <article class="product-card" data-category="waffles">
+          <div class="product-image waffle-img"><span class="product-tag">CROWD FAVOURITE</span><span class="product-emoji">🧇</span><button class="quick-add" aria-label="Add Belgian waffle to order">+</button></div>
+          <div class="product-info"><div><h3>Belgian Bliss Waffle</h3><p>Warm, crisp, chocolate-drizzled</p></div><strong>₹149</strong></div>
+        </article>
+        <article class="product-card" data-category="brownies">
+          <div class="product-image brownie-img"><span class="product-emoji">🍫</span><button class="quick-add" aria-label="Add fudgy brownie to order">+</button></div>
+          <div class="product-info"><div><h3>Fudgy Brownie</h3><p>Rich, gooey, pure comfort</p></div><strong>₹99</strong></div>
+        </article>
+        <article class="product-card" data-category="shakes">
+          <div class="product-image shake-img"><span class="product-emoji">🥤</span><button class="quick-add" aria-label="Add chocolate shake to order">+</button></div>
+          <div class="product-info"><div><h3>Choco Cloud Shake</h3><p>Thick, creamy, extra dreamy</p></div><strong>₹129</strong></div>
+        </article>
+        <article class="product-card" data-category="coffee">
+          <div class="product-image coffee-img"><span class="product-emoji">☕</span><button class="quick-add" aria-label="Add iced coffee to order">+</button></div>
+          <div class="product-info"><div><h3>Caramel Iced Coffee</h3><p>A smooth little energy boost</p></div><strong>₹119</strong></div>
+        </article>
+      </div>
+      <p class="menu-disclaimer">Demo menu and prices — update these to match your actual offerings.</p>
+    </section>
+
+    <section class="story-section section-pad" id="story">
+      <div class="story-photo"><div class="story-photo-inner"><span>BAKED WITH A LITTLE EXTRA LOVE</span></div><div class="story-badge">FRESH<br>MOOD<br>ONLY ✳</div></div>
+      <div class="story-copy"><p class="eyebrow">HELLO, SWEET TOOTH</p><h2>Life's better<br>with a little <em>treat.</em></h2><p>At Browletto, we believe the best moments don't need a big reason. A post-class waffle, an after-work shake, coffee with a friend — we're here for all of it.</p><p>Come for your cravings. Stay for the good mood.</p><a class="button button-dark" href="#visit">Come say hello <span>→</span></a></div>
+    </section>
+
+    <section class="quote-band"><span class="quote-mark">“</span><p>Happiness is homemade.<br><em>And sometimes, it's chocolate-covered.</em></p><span class="quote-spark">✳</span></section>
+
+    <section class="visit-section section-pad" id="visit">
+      <div><p class="eyebrow">YOUR NEXT HAPPY PLACE</p><h2>Let's make<br>your day <em>sweeter.</em></h2><p class="visit-copy">Drop by, grab your favourite, and take a little joy with you.</p></div>
+      <div class="visit-card"><span class="visit-icon">✳</span><h3>Find Browletto</h3><p>Add your shop address here<br>City, Maharashtra</p><a class="contact-link" href="https://www.instagram.com/" target="_blank" rel="noreferrer">Follow us on Instagram ↗</a><p class="small-note">Replace this with your real address, phone number and social links.</p></div>
+    </section>
+  </main>
+
+  <footer class="footer"><a class="brand brand-footer" href="#home"><span class="brand-mark">b.</span><span>Browletto<small>GOOD MOODS, FRESHLY MADE</small></span></a><p>Waffles • Brownies • Shakes • Coffee • Snacks</p><span>© <span id="year"></span> Browletto. Made with a little extra sweetness.</span></footer>
+  <div class="toast" role="status" aria-live="polite"></div>
+  <script src="script.js"></script>
+</body>
+</html>
